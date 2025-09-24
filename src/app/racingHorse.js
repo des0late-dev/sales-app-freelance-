@@ -54,7 +54,7 @@ export default function RacingHorse() {
     {data.map((venue) => (
       <div
         key={venue.venue}
-        className="flex justify-between items-center border-b px-4 py-3"
+        className="flex justify-between items-center border-b px-4 py-3 "
       >
       
          <div>
@@ -65,7 +65,7 @@ export default function RacingHorse() {
         </div>
 
         
-        <div className="flex gap-6 justify-end flex-wrap">
+        <div className="flex gap-6 justify-end flex-wrap ">
           {venue.races.map((r, i) => (
             <div key={i} className="text-right text-black">
               <div className="flex items-center gap-1">
