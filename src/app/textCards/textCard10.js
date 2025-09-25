@@ -14,7 +14,7 @@ export default function TextCard10() {
        1. You love winning bets on racing.
       </p>
       <p>
-    2. You're sick of losing to the bookies.
+    2. You&apos;re sick of losing to the bookies.
       </p>
       <p>
     3.    You want a proven edge.
@@ -52,7 +52,7 @@ Choose which one you are today.
 Click above to join EachWayProfits now.
 </p>
   <p className="leading-relaxed ">
-          <strong>Spots are open <span className="text-[#D11F25]">for now.</span> </strong> The bookies aren't waiting. <strong>Why should you?</strong>
+          <strong>Spots are open <span className="text-[#D11F25]">for now.</span> </strong> The bookies aren&apos;t waiting. <strong>Why should you?</strong>
         </p>
         <p className="leading-relaxed">
          Make this the weekend where you finally turn  <strong>betting into profit.</strong>

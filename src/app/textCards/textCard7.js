@@ -5,7 +5,7 @@ export default function TextCard7() {
     <div className="w-full lg:w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden p-6 md:p-10 text-2xl leading-[40px] font-source font-normal">
       <div className="space-y-8 text-[#1E1E1E] text-[26px] leading-[32px] p-6 md:p-8 pl-8 md:pl-10 [&_strong]:font-bold">
         <p className="text-[#D11F25] leading-relaxed">
-          <strong>Here's the truth:</strong>
+          <strong>here&apos;s the truth:</strong>
         </p>
 
         <p className="leading-relaxed">
@@ -25,7 +25,7 @@ export default function TextCard7() {
         </p>
 
         <p className="leading-relaxed">
-          That's why we only allow a <strong>limited number of punters</strong> in at any one time.
+          That&apos;s why we only allow a <strong>limited number of punters</strong> in at any one time.
         </p>
 
         <p className="leading-relaxed">
@@ -33,7 +33,7 @@ export default function TextCard7() {
         </p>
 
         <p className="leading-relaxed">
-          <strong>30 slots and then we're GONE!</strong>
+          <strong>30 slots and then we&apos;re GONE!</strong>
         </p>
 
         <p className="leading-relaxed">

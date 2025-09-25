@@ -1,6 +1,5 @@
 import Image from "next/image";
-import RacingHorse from "./racingHorse";
-import BettingScreen from "./BettingScreen";
+
 import TheBlack from "./theBlack";
 import HorseBanner from "./HorseBanner";
 import TextCards from "./textCards/textCard1";
@@ -18,7 +17,7 @@ export default function Home() {
   return (
   <div className="flex justify-center flex-col">
   <div className="relative min-h-screen">
-    {/* Fixed background - covers full width and fades properly */}
+    
     <div 
       className="absolute inset-0 -z-10"
       style={{
@@ -29,7 +28,7 @@ export default function Home() {
       }}
     ></div>
     
-    {/* Gradient fade overlay - responsive height */}
+    
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
     
     <div className="bg-red-500 w-full h-10 flex items-center justify-center mb-7">
@@ -48,7 +47,7 @@ export default function Home() {
       <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
     </div>
 
-    {/* Mobile-responsive spacing with overlap */}
+  
     <div className="relative z-20 -mb-4 sm:-mb-2 md:-mb-2 lg:-mb-2 xl:-mb-4 text-center">
       <img src={"./Placeholder 2.png"} className="mx-auto" alt="Betting Screen" />
     </div>
@@ -66,7 +65,7 @@ export default function Home() {
       <TextCard3 />
       <TheBlack text="Reciprocity (Give Before You Ask)" />
       <TextCard4 />
-      <TheBlack text="Unity (We're One of You)" />
+      <TheBlack text="Unity (we&apos;re One of You)" />
       <TextCard5 />
       <TheBlack text="Scarcity (Why You Must Act Now)" />
       <TextCard7 />

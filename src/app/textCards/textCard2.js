@@ -18,7 +18,7 @@ export default function TextRest() {
           And yes, they land a few - but the bookies build their business on
           that behaviour.{" "}
           <strong>
-            You don't beat the market by playing where it's strongest.
+            You don&apos;t beat the market by playing where It&apos;s strongest.
           </strong>
         </p>
 
@@ -29,12 +29,12 @@ export default function TextRest() {
           </strong>
         </p>
 
-        <p className="font-bold">And that's where our edge lives.</p>
+        <p className="font-bold">And That&apos;s where our edge lives.</p>
 
         <p>
-          We're not tipping 40 bets a day. We're not spamming your inbox with
-          “bankers” that collapse at the first fence. We're selective,
-          deliberate, and patient. Over 2,074 bets, we've stuck to one
+          we&apos;re not tipping 40 bets a day. we&apos;re not spamming your inbox with
+          &apos;&apos;bankers&apos;&apos; that collapse at the first fence. we&apos;re selective,
+          deliberate, and patient. Over 2,074 bets, we&apos;ve stuck to one
           principle: value over vanity.
         </p>
 
@@ -43,11 +43,11 @@ export default function TextRest() {
         </img>
 
         <p>
-          <u>That's not luck. That's not guesswork.</u>
+          <u>That&apos;s not luck. That&apos;s not guesswork.</u>
         </p>
 
         <p>
-That's a system proven in the trenches, <strong> with actual money on the line.</strong>
+That&apos;s a system proven in the trenches, <strong> with actual money on the line.</strong>
         </p>
 
        

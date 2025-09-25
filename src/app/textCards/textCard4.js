@@ -8,7 +8,7 @@ export default function TextCard4() {
       
       <div className="space-y-8 text-[#1E1E1E] text-[26px] leading-[32px] p-6 md:p-8 pl-8 md:pl-10">
         <p className="text-[#1E1E1E] leading-relaxed   ">
-          <i>Before I even ask you to join,</i> here's a <strong>free angle</strong> you can use this weekend:
+          <i>Before I even ask you to join,</i> here&apos;s a <strong>free angle</strong> you can use this weekend:
         </p>
         <p className="text-[#1E1E1E] leading-relaxed   ">
           <strong>Each-way bets at double-digit odds, in races with 12+ runners, where the favorite is odds-on</strong>
@@ -20,11 +20,11 @@ export default function TextCard4() {
 <u>Because bookies over-inflate the outsiders in those races.</u>
         </p>
          <p className="text-[#1E1E1E] leading-relaxed ">
-We've seen it time and time again that <strong> one slips through the cracks and pays 10/1+.</strong>
+we&apos;ve seen it time and time again that <strong> one slips through the cracks and pays 10/1+.</strong>
         </p>
         
          <p className="text-[#1E1E1E] leading-relaxed  ">
-Take that, use it, land a winner, and you'll already feel the power of this
+Take that, use it, land a winner, and already feel the power of this
 approach.        
 </p>
        

@@ -11,14 +11,14 @@ export default function TextCard6() {
 Think back to your last month of betting.
         </p>
         <p className="text-[#1E1E1E] leading-relaxed   ">
-How many <strong>“sure things”</strong> bottled it?        
+How many <strong>&apos;&apos;sure things&apos;&apos;</strong> bottled it?        
 </p>
         <p className="text-[#1E1E1E] leading-relaxed ">
     
 How many bets went in the bin before the race was even halfway?
         </p>
         <p className="text-[#1E1E1E] leading-relaxed ">
-How many times did you fancy the price but then watched the odds crash just before the off, making your “value” disappear before your eyes?
+How many times did you fancy the price but then watched the odds crash just before the off, making your &apos;&apos;value&apos;&apos; disappear before your eyes?
 </p>
       
          <p className="text-[#1E1E1E] leading-relaxed ">
@@ -26,14 +26,14 @@ How many times did you fancy the price but then watched the odds crash just befo
         </p>
         
          <p className="text-[#1E1E1E] leading-relaxed  ">
-It makes you feel like betting is a mug's game.
+It makes you feel like betting is a mug&apos;s game.
 </p>
        
        <p className="text-[#1E1E1E] leading-relaxed ">
-Like the bookies have already written the script, and you're just paying for the privilege of watching.
+Like the bookies have already written the script, and you&apos;re just paying for the privilege of watching.
        </p>
         <p className="text-[#1E1E1E] leading-relaxed ">
-And if you keep playing their game, they're right. You'll keep losing.     
+And if you keep playing their game, they&apos;re right. &apos; keep losing.     
 </p> 
  <p className="text-[#1E1E1E] leading-relaxed ">
 <strong>But play our game?</strong>

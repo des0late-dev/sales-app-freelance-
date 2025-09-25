@@ -32,11 +32,11 @@ export default function HorseBanner() {
       What's worse than losing your bets<br className="block mb-6" />
       on a Saturday afternoon?<br className="block mb-6" />
       <br className="block mb-6" />
-      It's not the money, is it?<br className="block mb-6" />
+      It&apos;s not the money, is it?<br className="block mb-6" />
       <br className="block mb-6" />
       Not really<br className="block mb-6" />
       <br className="block mb-6" />
-      It's the feeling.
+      It&apos;s the feeling.
     </p>
     <img src={"./Underline 1.png"}></img>
   </div>

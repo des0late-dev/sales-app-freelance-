@@ -17,7 +17,7 @@ Worried it won't work for you?
         </p>
 
         <p className="leading-relaxed">
-          You're covered by our <strong>CANCEL ANYTIME GUARANTEE.</strong>
+       You&apos;re covered by our <strong>CANCEL ANYTIME GUARANTEE.</strong>
         </p>
 
         <p className="leading-relaxed">
@@ -35,7 +35,7 @@ Worried it won't work for you?
         </p>
 
         <p className="leading-relaxed">
-          If you don't see the edge, you stop the subscription
+          If you don&apos;t see the edge, you stop the subscription
         </p>
 
 

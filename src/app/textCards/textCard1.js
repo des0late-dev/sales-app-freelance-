@@ -11,39 +11,39 @@ export default function TextCards() {
         </p>
 
         <p>
-          It's walking into the pub later, mates buzzing, and you muttering,
-          "Nah, didn't land today."
+          It&apos;s walking into the pub later, mates buzzing, and you muttering,
+          &apos;&apos;Nah, didn&apos;t land today.&apos;&apos;
         </p>
 
         <p>
-          It's the bloke who works at the bookie giving you a blank stare as
-          though you're a mug who should have known better. But what does he
+          It&apos;s the bloke who works at the bookie giving you a blank stare as
+          though you&apos;re a mug who should have known better. But what does he
           know?!
         </p>
 
-        <p>We've all been there.</p>
+        <p>we&apos;ve all been there.</p>
 
         <p className="font-bold">Too many times.</p>
 
         <p>
-          But here's the good news about what I'm about to let you in on:
+          But here&apos;s the good news about what I&apos;m about to let you in on:
         </p>
 
         <div className="text-center my-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#D11F25] leading-tight">
-            Over 2,074 tips, we've pulled in £8,201 profit with just a 10.3%
+            Over 2,074 tips, we&apos;ve pulled in £8,201 profit with just a 10.3%
             strike rate.
           </h2>
         </div>
 
-        <p>That's not a typo.</p>
+        <p>That&apos;s not a typo.</p>
 
         <p>
-          That's not some <strong>"winner every race"</strong> fairy tale.
+          That&apos;s not some <strong>&apos;&apos;winner every race&apos;&apos;</strong> fairy tale.
         </p>
 
         <p>
-          That's the reality of a system built to target what bookies fear most:
+          That&apos;s the reality of a system built to target what bookies fear most:
         </p>
 
         <p className="font-bold">
