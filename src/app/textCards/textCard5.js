@@ -8,7 +8,7 @@ export default function TextCard5() {
       
       <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px] max-w-1xl xl:ml-5.5 lg:ml-5.5 p-8 md:p-10 pl-8 md:pl-10">
         <p className="text-[#1E1E1E]    ">
-         Look, We&apos;re not some slick City lads with algorithms you &apos; understand.
+         Look, We&apos;re not some slick City lads with algorithms you wouldn&apos;t understand.
         </p>
         <p className="text-[#1E1E1E]    ">
          We&apos;re punters. <strong>Like you.</strong>

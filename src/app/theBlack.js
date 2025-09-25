@@ -11,8 +11,8 @@ export default function TheBlack({ text }) {
 
    
         <div className="absolute inset-0 flex items-center">
-        <div className="w-full max-w-[1152px] mx-auto px-6 sm:px-8 text-[64px] xl:ml-[40rem] lg:ml-5.5">
-          <div className="pl-8 md:pl-10">
+        <div className="w-full max-w-[1152px] mx-auto px-6 sm:px-8 text-[64px] ">
+          <div className="pl-8 md:pl-10 ml-6">
             <div
               className="text-white font-bold text-left"
               style={{

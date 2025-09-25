@@ -38,7 +38,7 @@ export default function Home() {
 
    <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 ">
   <p
-    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8  xl:ml-12 lg:ml-12 font-bold leading-snug text-white drop-shadow-lg text-center ml-4"
+    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8  xl:ml-12 lg:ml-12 font-bold leading-snug text-white drop-shadow-lg text-center"
     style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
   >
     The Only Horse Racing Edge<br />

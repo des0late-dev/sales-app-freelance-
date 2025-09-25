@@ -13,11 +13,15 @@ export default function TextCard8() {
 <img src={"./Stats 3.png"}> 
 </img>
 
-     <p className="text-[48px] leading-[48px] font-bold text-center text-[#D11F25]" style={{fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif"}}>
+     <p
+  className="text-[48px] leading-[48px] font-bold text-center text-[#D11F25] xl:mt-23.5"
+  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
+>
   All for less than the price of a
-  <br/>
+  <br />
   Saturday night takeaway.
 </p>
+
         
       </div>
     </div>
