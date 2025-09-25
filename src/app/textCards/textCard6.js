@@ -11,7 +11,7 @@ export default function TextCard6() {
 Think back to your last month of betting.
         </p>
         <p className="text-[#1E1E1E]    ">
-How many <strong>{'“'}things{'”'} </strong> bottled it?        
+How many <strong>{'“'}sure things{'”'} </strong> bottled it?        
 </p>
         <p className="text-[#1E1E1E]  ">
     
@@ -40,7 +40,7 @@ And if you keep playing their game, they&apos;re right. You&apos;ll keep losing.
 <img src={"./Underline 2.png"}></img>
 </p> 
  <p className="text-[#1E1E1E]  ">
-Suddenly, the numbers flip.
+Suddenly, <u>the numbers flip.</u>
 </p> 
 
      

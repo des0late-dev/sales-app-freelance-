@@ -30,7 +30,7 @@ export default function TextCards() {
         </p>
 
         <div className="text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#D11F25] leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#D11F25] leading-tight" style={{fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif"}}>
             Over 2,074 tips, we&apos;ve pulled in £8,201 profit with just a 10.3%
             strike rate.
           </h2>

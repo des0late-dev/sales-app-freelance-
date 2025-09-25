@@ -13,7 +13,7 @@ export default function TextCard3(){
     </div>
 
     <p>
-      But don&apos;t just take our word. <strong>here&apos;s what real punters say:</strong>
+      But don&apos;t just take our word. <strong>Here&apos;s what real punters say:</strong>
     </p>
 
     <div className="relative">

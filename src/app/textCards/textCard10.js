@@ -11,17 +11,23 @@ export default function TextCard10() {
         </p>
 
       <p>
+        <strong>
        1. You love winning bets on racing.
+       </strong>
       </p>
       <p>
+        <strong>
     2. You&apos;re sick of losing to the bookies.
+    </strong>
       </p>
       <p>
+        <strong>
     3.    You want a proven edge.
+    </strong>
       </p>
 
       
-       <p className="text-[48px] leading-[48px] font-bold text-center text-[#D11F25]">
+       <p className="text-[48px] leading-[48px] font-bold text-center text-[#D11F25]" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
  SO WHY STOP NOW?
 </p>
 
@@ -40,19 +46,19 @@ export default function TextCard10() {
         <p className="">
           <strong>They stay stuck.</strong>
         </p>
-        <p className="text-[48px] leading-[48px] font-bold text-center ">
+        <p className="text-[48px] leading-[48px] font-bold text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
 Choose which one you are today.
 </p>
 <div className="justify-center text-center items-center">
-    <button className="  mt-2 mb-2 w-[301px] h-[95px] rounded-[100px]  border-[3px]   px-[40px] py-[20px] font-neue text-[46px] leading-[46px] font-bold  opacity-100 bg-[#D11F25] text-white">
+    <button className="  mt-2 mb-2 w-[301px] h-[95px] rounded-[100px]  border-[3px]   px-[40px] py-[20px] font-neue text-[46px] leading-[46px] font-bold  opacity-100 bg-[#D11F25] text-white" >
     JOIN NOW
 </button>
 </div>
- <p className="text-[48px] leading-[48px] font-bold text-center mb-12 ">
+ <p className="text-[48px] leading-[48px] font-bold text-center mb-12" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
 Click above to join EachWayProfits now.
 </p>
   <p className=" ">
-          <strong>Spots are open <span className="text-[#D11F25]">for now.</span> </strong> The bookies aren&apos;t waiting. <strong>Why should you?</strong>
+          <strong>Spots are open - <span className="text-[#D11F25]">for now.</span> </strong> The bookies aren&apos;t waiting. <strong>Why should you?</strong>
         </p>
         <p className="">
          Make this the weekend where you finally turn  <strong>betting into profit.</strong>

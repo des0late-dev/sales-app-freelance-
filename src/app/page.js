@@ -19,15 +19,15 @@ export default function Home() {
   <div className="flex justify-center flex-col">
   <div className="relative min-h-screen">
     
-    <div 
-      className="absolute inset-0 -z-10"
-      style={{
-        backgroundImage: "url('/background-home.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
-      }}
-    ></div>
+  <div
+  className="absolute inset-0 -z-10 w-full bg-no-repeat bg-contain   bg-top"
+  style={{
+    backgroundImage: "url('/background-home.png')",
+      backgroundSize: "100%", 
+
+    
+  }}
+></div>
     
     
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
@@ -38,7 +38,7 @@ export default function Home() {
 
    <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 s">
   <p
-    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] font-bold leading-snug text-white drop-shadow-lg text-center"
+    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8 font-bold leading-snug text-white drop-shadow-lg text-center"
     style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
   >
     The Only Horse Racing Edge<br />
@@ -80,7 +80,7 @@ export default function Home() {
       <TextCard8 />
       <TheBlack text="Risk Reversal (Remove Doubt)" />
       <TextCard9 />
-      <TheBlack text="Final Push (Commitment + Consistency)" />
+      <TheBlack text='Final Push (Commitment + Consistency)' />
       <TextCard10 />
     </div>
   );
