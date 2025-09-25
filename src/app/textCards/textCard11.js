@@ -21,7 +21,7 @@ export default function TextCard11() {
         </p>
         <p>Imagine this:</p>
         <p>It&apos;s Saturday.</p>
-        <p>The favorite's odds-on.</p>
+        <p>The favorite&apos;s odds-on.</p>
         <p>You&apos;ve got the outsider at 11/1.</p>
         <p><strong>It storms home.</strong></p>
         <p>Suddenly, you&apos;re the one laughing, pint in hand, mates staring like:?</p>

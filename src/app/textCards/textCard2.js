@@ -45,10 +45,10 @@ export default function TextRest() {
 
        <div className="-mt-18 space-y[44px]">
   <p>
-    <u>That's not luck. That's not guesswork.</u>
+    <u>That&rdquo; s not luck. That&rdquo; s not guesswork.</u>
   </p>
   <p className="mt-[44px]">
-    That's a system proven in the trenches, 
+    That&rdquo; s a system proven in the trenches, 
     <strong> with actual money on the line.</strong>
   </p>
 </div>
