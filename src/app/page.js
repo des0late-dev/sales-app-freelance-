@@ -23,7 +23,7 @@ export default function Home() {
   className="absolute inset-0 -z-10 w-full bg-no-repeat bg-contain   bg-top"
   style={{
     backgroundImage: "url('/background-home.png')",
-      backgroundSize: "100%", 
+    backgroundSize: "100%",
 
     
   }}

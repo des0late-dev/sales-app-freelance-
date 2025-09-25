@@ -26,9 +26,9 @@ export default function HorseBanner() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
 
        
-  <div className="relative max-w-5xl mx-auto px-4 sm:px-6 py-20 md:py-28 text-white text-center md:text-left md:right-5">
+  <div className="relative max-w-5xl mx-auto px-4 sm:px-6 py-20 md:py-28  text-white text-center md:text-left md:right-5">
   <div className="max-w-4xl mx-auto md:mx-0">
-    <p className="font-bold text-[48px] leading-[56px] tracking-normal" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+    <p className="font-bold text-[48px] leading-[56px] tracking-normal px-10" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
       Let me ask you something straight:<br className="block mb-6" />
       What&apos;s worse than losing your bets<br className="block mb-6" />
       on a Saturday afternoon?<br className="block mb-6" />
