@@ -28,7 +28,7 @@ export default function HorseBanner() {
        
   <div className="relative max-w-5xl mx-auto px-4 sm:px-6 py-20 md:py-28  text-white text-center md:text-left md:right-5">
   <div className="max-w-4xl mx-auto md:mx-0">
-    <p className="font-bold text-[48px] leading-[56px] tracking-normal px-10" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+    <p className="font-bold text-[48px] leading-[56px] tracking-normal px-1 xl:ml-6 lg:ml-6" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
       Let me ask you something straight:<br className="block mb-6" />
       What&apos;s worse than losing your bets<br className="block mb-6" />
       on a Saturday afternoon?<br className="block mb-6" />
@@ -39,8 +39,8 @@ export default function HorseBanner() {
       <br className="block mb-6" />
       It&apos;s the feeling.
     </p>
-    <img src={"./Underline 1.png"}
-    style={{width:"34%"}}></img>
+     <img src={"./Underline 1.png"} className="ml-8"
+    style={{width:"33%"}}></img> 
   </div>
 </div>
 

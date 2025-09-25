@@ -33,12 +33,12 @@ export default function Home() {
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
     
     <div className="bg-[#D11F25] w-full h-[62px] flex items-center justify-center ">
-      <p className="text-white font-bold">LOGO</p>
+      <p className="text-white font-bold text-[36px]" style={{fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif"}}>LOGO</p>
     </div>
 
-   <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 s">
+   <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 ">
   <p
-    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8 font-bold leading-snug text-white drop-shadow-lg text-center"
+    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8  xl:ml-12 lg:ml-12 font-bold leading-snug text-white drop-shadow-lg text-center ml-4"
     style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
   >
     The Only Horse Racing Edge<br />
@@ -47,13 +47,13 @@ export default function Home() {
   </p>
 </div>
 
-<div className="relative z-10 -mt-8 xl:-mt-4 mb-6 text-center">
+<div className="relative z-10 -mt-8 xl:-mt-4 mb-6 text-center xl:ml-17 lg:ml-17 ">
   <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
 </div>
 
 
   
-    <div className="relative z-20 -mb-4 sm:-mb-2 md:-mb-2 lg:-mb-2 xl:-mb-4 text-center">
+    <div className="relative z-20 -mb-4 sm:-mb-2 md:-mb-2 lg:-mb-2 xl:-mb-4 text-center ml-12 xl:ml-17 lg:ml-17">
       <img src={"./Placeholder 2.png"} className="mx-auto" alt="Betting Screen" />
     </div>
   </div>
@@ -80,7 +80,7 @@ export default function Home() {
       <TextCard8 />
       <TheBlack text="Risk Reversal (Remove Doubt)" />
       <TextCard9 />
-      <TheBlack text='Final Push (Commitment + Consistency)' />
+<TheBlack text={"Final Push \n (Commitment + Consistency)"} />
       <TextCard10 />
     </div>
   );

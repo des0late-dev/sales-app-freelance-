@@ -11,7 +11,7 @@ export default function TheBlack({ text }) {
 
    
         <div className="absolute inset-0 flex items-center">
-        <div className="w-full max-w-[1152px] mx-auto px-6 sm:px-8 text-[64px]">
+        <div className="w-full max-w-[1152px] mx-auto px-6 sm:px-8 text-[64px] xl:ml-[40rem] lg:ml-5.5">
           <div className="pl-8 md:pl-10">
             <div
               className="text-white font-bold text-left"
@@ -21,7 +21,8 @@ export default function TheBlack({ text }) {
                 lineHeight: "clamp(64px, 6vw, 48px)",
               }}
             >
-              {text}
+             <p className="whitespace-pre-line">{text}</p>
+
             </div>
           </div>
         </div>

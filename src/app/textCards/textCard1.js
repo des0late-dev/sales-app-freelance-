@@ -4,7 +4,7 @@ export default function TextCards() {
   return (
     <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source -mt-12  px-6 sm:px-8 py-18">
 
-      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px]  p-8 md:p-10 pl-8 md:pl-10">
+      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px]  p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10 pl-8 md:pl-10">
         <p>
           The gut-punch of watching your bet lose by a nose while the bookies
           nick another chunk out of your money.

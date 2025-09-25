@@ -1,20 +1,20 @@
 export default function TextCard11() {
   return (
     <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source px-6 sm:px-8 py-20">
-      <div className="space-y-[44px] text-lg text-[#1E1E1E] text-[32px] leading-[38px] p-8 md:p-10 pl-8 md:pl-10">
+      <div className="space-y-[44px] text-lg text-[#1E1E1E] text-[32px] leading-[38px] max-w-1xl xl:ml-5.5 lg:ml-5.5 p-8 md:p-10 pl-8 md:pl-10">
         <p>
           <strong><i>Here&apos;s <span className="ml-1"></span>the secret:</i></strong> You don&apos;t need to <strong>win often</strong> to win big.
         </p>
         <p>
           Our service proves it:
         </p>
-      <ul className="list-disc pl-6 space-y-[26px] text-[32px] leading-[38px] text-black">
+      <ul className="list-disc pl-12 space-y-[26px] text-[32px] leading-[38px] text-black " >
   <li><strong>Only 7% of tips land</strong> - and that&apos;s enough to bank £8,201 profit.</li>
   <li>Why? Because when we hit, <strong>we hit big.</strong> 10/1, 12/1, 16/1, sometimes more.</li>
   <li>Every winner wipes out weeks of small losses and pushes the bankroll higher.</li>
 </ul>
 
-        <p>
+        <p className="py-1">
           It&apos;s like fishing. Most punters are scooping minnows out of a pond.
         </p>
         <p>
