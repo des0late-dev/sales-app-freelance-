@@ -32,21 +32,25 @@ export default function Home() {
     
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
     
-    <div className="bg-[#D11F25] w-full h-[79px] flex items-center justify-center ">
+    <div className="bg-[#D11F25] w-full h-[62px] flex items-center justify-center ">
       <p className="text-white font-bold">LOGO</p>
     </div>
 
    <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30">
-  <p className="text-6xl md:text-[82px] font-bold leading-snug text-white drop-shadow-lg text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+  <p
+    className="text-5xl xl:text-7xl 2xl:text-[82px] font-bold leading-snug text-white drop-shadow-lg text-center"
+    style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
+  >
     The Only Horse Racing Edge<br />
     That Turned £8,201 Profit<br />
     From Just 10.3% Winners
   </p>
 </div>
 
-    <div className="relative z-10   text-center mb-9">
-      <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
-    </div>
+<div className="relative z-10 -mt-8 xl:-mt-4 mb-6 text-center">
+  <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
+</div>
+
 
   
     <div className="relative z-20 -mb-4 sm:-mb-2 md:-mb-2 lg:-mb-2 xl:-mb-4 text-center">
@@ -68,7 +72,7 @@ export default function Home() {
       <TextCard3 />
       <TheBlack text="Reciprocity (Give Before You Ask)" />
       <TextCard4 />
-      <TheBlack text="Unity (we&apos;re One of You)" />
+      <TheBlack text="Unity (We&apos;re One of You)" />
       <TextCard5 />
       <TheBlack text="Scarcity (Why You Must Act Now)" />
       <TextCard7 />
