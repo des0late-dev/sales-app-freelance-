@@ -36,9 +36,9 @@ export default function Home() {
       <p className="text-white font-bold">LOGO</p>
     </div>
 
-   <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30">
+   <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 s">
   <p
-    className="text-5xl xl:text-7xl 2xl:text-[82px] font-bold leading-snug text-white drop-shadow-lg text-center"
+    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] font-bold leading-snug text-white drop-shadow-lg text-center"
     style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
   >
     The Only Horse Racing Edge<br />
