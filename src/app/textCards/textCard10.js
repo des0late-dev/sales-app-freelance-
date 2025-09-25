@@ -7,7 +7,7 @@ export default function TextCard10() {
        
 
         <p className="leading-relaxed">
-          You've read this far, which tells me three things:
+          You&apos;ve read this far, which tells me three things:
         </p>
 
       <p>
