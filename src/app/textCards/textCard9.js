@@ -2,44 +2,44 @@ import React from "react";
 
 export default function TextCard9() {
   return (
-    <div className="w-full lg:w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden p-6 md:p-10 text-2xl leading-[40px] font-source font-normal">
-      <div className="space-y-8 text-[#1E1E1E] text-[26px] leading-[32px] p-6 md:p-8 pl-8 md:pl-10 [&_strong]:font-bold">
+    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 py-18">
+      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px]  p-8 md:p-10 pl-8 md:pl-10">
         
 
       
 
-        <p className="leading-relaxed">
+        <p className="">
 Worried it won&apos;t work for you?
         </p>
 
-        <p className="leading-relaxed">
+        <p className="">
           <strong>No problem.</strong>
         </p>
 
-        <p className="leading-relaxed">
+        <p className="">
        You&apos;re covered by our <strong>CANCEL ANYTIME GUARANTEE.</strong>
         </p>
 
-        <p className="leading-relaxed">
+        <p className="">
          <u>Try it.</u>
         </p>
 
         
 
-        <p className="leading-relaxed">
+        <p className="">
           Take the tips.
         </p>
 
-        <p className="leading-relaxed">
+        <p className="">
           Place the bets.
         </p>
 
-        <p className="leading-relaxed">
-          If you don&apos;t see the edge, you stop the subscription
+        <p className="">
+          If you don&apos;t see the edge, you stop the subscription.
         </p>
 
 
- <p className="leading-relaxed">
+ <p className="">
 <strong>Simple as that.</strong>
         </p>
 

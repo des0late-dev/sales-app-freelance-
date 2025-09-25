@@ -1,7 +1,7 @@
 export default function TextRest() {
   return (
-    <div className="w-full lg:w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden p-6 md:p-10 text-2xl leading-[40px] font-source">
-      <div className="space-y-8 text-[#1E1E1E] text-[26px] leading-[32px] p-6 md:p-8 pl-8 md:pl-10">
+    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 py-18">
+      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px]  p-8 md:p-10 pl-8 md:pl-10">
         <p >
           See, most punters have it backwards.
         </p>
@@ -29,26 +29,29 @@ export default function TextRest() {
           </strong>
         </p>
 
-        <p className="font-bold">And That&apos;s where our edge lives.</p>
+        <p className="font-bold">And that&apos;s where our edge lives.</p>
 
-        <p>
-          we&apos;re not tipping 40 bets a day. we&apos;re not spamming your inbox with
-          &apos;&apos;bankers&apos;&apos; that collapse at the first fence. we&apos;re selective,
-          deliberate, and patient. Over 2,074 bets, we&apos;ve stuck to one
-          principle: value over vanity.
-        </p>
+       <p>
+  We&apos;re not tipping 40 bets a day. We&apos;re not spamming your inbox with 
+  &ldquo;bankers&rdquo; that collapse at the first fence. We&apos;re selective,
+  deliberate, and patient. Over 2,074 bets, we&apos;ve stuck to one
+  principle: value over vanity.
+</p>
+
 
         <p>The result?</p>
         <img src={"./Stats 1.png"}>
         </img>
 
-        <p>
-          <u>That&apos;s not luck. That&apos;s not guesswork.</u>
-        </p>
-
-        <p>
-That&apos;s a system proven in the trenches, <strong> with actual money on the line.</strong>
-        </p>
+       <div className="-mt-18 space-y[44px]">
+  <p>
+    <u>That's not luck. That's not guesswork.</u>
+  </p>
+  <p className="mt-[44px]">
+    That's a system proven in the trenches, 
+    <strong> with actual money on the line.</strong>
+  </p>
+</div>
 
        
       </div>

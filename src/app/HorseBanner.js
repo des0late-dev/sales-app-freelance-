@@ -8,7 +8,7 @@ export default function HorseBanner() {
           style={{
             backgroundImage: "url('Image 2 background.png')",
             backgroundSize: "cover",
-            backgroundPosition: "center"
+            backgroundPosition: "70% center "
           }}
         ></div>
         
@@ -32,7 +32,7 @@ export default function HorseBanner() {
       What&apos;s worse than losing your bets<br className="block mb-6" />
       on a Saturday afternoon?<br className="block mb-6" />
       <br className="block mb-6" />
-      It&apos;s not the money, is it?<br className="block mb-6" />
+     <u> It&apos;s not the money,</u> is it?<br className="block mb-6" />
       <br className="block mb-6" />
       Not really<br className="block mb-6" />
       <br className="block mb-6" />

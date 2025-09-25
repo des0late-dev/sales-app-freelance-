@@ -12,6 +12,7 @@ import TextCard7 from "./textCards/textCard7";
 import TextCard8 from "./textCards/textCard8";
 import TextCard9 from "./textCards/textCard9";
 import TextCard10 from "./textCards/textCard10";
+import TextCard11 from "./textCards/textCard11";
 
 export default function Home() {
   return (
@@ -31,19 +32,19 @@ export default function Home() {
     
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
     
-    <div className="bg-red-500 w-full h-10 flex items-center justify-center mb-7">
+    <div className="bg-[#D11F25] w-full h-[79px] flex items-center justify-center ">
       <p className="text-white font-bold">LOGO</p>
     </div>
 
-    <div className="relative text-center max-w-4xl mx-auto px-4 pt-8 md:pt-20">
-      <h2 className="text-3xl md:text-5xl font-bold leading-snug text-white drop-shadow-lg text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
-        The Only Horse Racing Edge<br />
-        That Turned £8,201 Profit<br />
-        From Just 10.3% Winners
-      </h2>
-    </div>
+   <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30">
+  <p className="text-6xl md:text-[82px] font-bold leading-snug text-white drop-shadow-lg text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+    The Only Horse Racing Edge<br />
+    That Turned £8,201 Profit<br />
+    From Just 10.3% Winners
+  </p>
+</div>
 
-    <div className="relative z-10 mt-8 md:mt-12 text-center mb-7">
+    <div className="relative z-10   text-center mb-9">
       <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
     </div>
 
@@ -61,6 +62,8 @@ export default function Home() {
       <TextRest />
       <TheBlack text="Agitate (Twisting the Knife)" />
       <TextCard6 />
+      <TheBlack text="Desire (Solution + Benefits)"></TheBlack>
+      <TextCard11></TextCard11>
       <TheBlack text="Proof (Authority + Social Proof)" />
       <TextCard3 />
       <TheBlack text="Reciprocity (Give Before You Ask)" />
