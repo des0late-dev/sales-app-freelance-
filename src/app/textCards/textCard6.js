@@ -6,7 +6,7 @@ export default function TextCard6() {
 
       
       
-      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px] max-w-1xl xl:ml-5.5 lg:ml-5.5 p-8 md:p-10 pl-8 md:pl-10">
+      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
         <p className="text-[#1E1E1E]    ">
 Think back to your last month of betting.
         </p>
@@ -37,7 +37,7 @@ And if you keep playing their game, they&apos;re right. You&apos;ll keep losing.
 </p> 
  <p className="text-[#1E1E1E]  ">
 <strong>But play our game?</strong>
-<img src={"./Underline 2.png"}></img>
+<img src={"./Underline 2.png" } className="w-[48%] sm:w-auto"></img>
 </p> 
  <p className="text-[#1E1E1E]  ">
 Suddenly, <u>the numbers flip.</u>

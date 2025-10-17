@@ -6,7 +6,7 @@ export default function TextCard4() {
 
       
       
-      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px]  p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5 md:p-10 pl-8 md:pl-10">
+      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
         <p className="text-[#1E1E1E]    ">
           <i>Before I even ask you to join,</i> here&apos;s a <strong>free angle</strong> you can use this weekend:
         </p>

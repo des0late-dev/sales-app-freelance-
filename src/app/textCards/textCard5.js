@@ -6,7 +6,7 @@ export default function TextCard5() {
 
       
       
-      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px] max-w-1xl xl:ml-5.5 lg:ml-5.5 p-8 md:p-10 pl-8 md:pl-10">
+      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
         <p className="text-[#1E1E1E]    ">
          Look, We&apos;re not some slick City lads with algorithms you wouldn&apos;t understand.
         </p>
@@ -34,7 +34,7 @@ We&apos;ve cursed the TV when our horse clattered the last.
         <p className="text-[#1E1E1E]  ">
 We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it delivers: <strong>consistent, compounding profit from smart each-way betting. </strong>     </p>
       
-      <img src={"./Placeholders.png"}></img>
+      <img src={"./newResult.png"}></img>
       </div>
     </div>
   );

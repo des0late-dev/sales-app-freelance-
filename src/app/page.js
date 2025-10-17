@@ -17,10 +17,10 @@ import TextCard11 from "./textCards/textCard11";
 export default function Home() {
   return (
   <div className="flex justify-center flex-col">
-  <div className="relative min-h-screen">
+  <div className="relative  sm:min-h-screen">
     
   <div
-  className="absolute inset-0 -z-10 w-full bg-no-repeat bg-contain   bg-top"
+  className="absolute inset-0 -z-10 w-full bg-no-repeat bg-cover h-full bg-top"
   style={{
     backgroundImage: "url('/background-home.png')",
     backgroundSize: "100%",
@@ -32,13 +32,13 @@ export default function Home() {
     
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
     
-    <div className="bg-[#D11F25] w-full h-[62px] flex items-center justify-center ">
+    <div className="bg-[#D11F25] w-full h-[30px] sm:h-[62px] flex items-center justify-center ">
       <p className="text-white font-bold text-[36px]" style={{fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif"}}>LOGO</p>
     </div>
 
    <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 ">
   <p
-    className="text-5xl xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8  xl:ml-12 lg:ml-12 font-bold leading-snug text-white drop-shadow-lg text-center"
+    className="text-[28px] mt-8 mb-4 xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8  xl:ml-12 lg:ml-12 font-bold leading-snug text-white drop-shadow-lg text-center "
     style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
   >
     The Only Horse Racing Edge<br />
@@ -47,13 +47,13 @@ export default function Home() {
   </p>
 </div>
 
-<div className="relative z-10 -mt-8 xl:-mt-4 mb-6 text-center xl:ml-17 lg:ml-17 ">
+<div className="relative z-10 mt-8 xl:-mt-4 mb-6 text-center xl:ml-17 lg:ml-17 ">
   <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
 </div>
 
 
   
-    <div className="relative z-20 -mb-4 sm:-mb-2 md:-mb-2 lg:-mb-2 xl:-mb-4 text-center ml-12 xl:ml-17 lg:ml-17">
+    <div className="relative z-20 sm:-mb-4  md:-mb-2 lg:-mb-2 xl:-mb-4 text-center xl:ml-17 lg:ml-17">
       <img src={"./Placeholder 2.png"} className="mx-auto" alt="Betting Screen" />
     </div>
   </div>
@@ -65,22 +65,30 @@ export default function Home() {
       <TheBlack text="Interest (Story + Problem)" />
       <TextRest />
       <TheBlack text="Agitate (Twisting the Knife)" />
-      <TextCard6 />
-      <TheBlack text="Desire (Solution + Benefits)"></TheBlack>
+      <TextCard6 /> 
+      <TheBlack text="Desire (Solution + Benefits)"></TheBlack>   
       <TextCard11></TextCard11>
-      <TheBlack text="Proof (Authority + Social Proof)" />
+      <TheBlack text={<> Proof <br className="block sm:hidden"/> (Authority + Social Proof) </>} />
       <TextCard3 />
-      <TheBlack text="Reciprocity (Give Before You Ask)" />
+      <TheBlack text={<> Reciprocity <br className="block sm:hidden"/> (Give Before You Ask) </>} />
       <TextCard4 />
       <TheBlack text="Unity (We&apos;re One of You)" />
       <TextCard5 />
-      <TheBlack text="Scarcity (Why You Must Act Now)" />
+      <TheBlack text={<> Scarcity <br className="block sm:hidden"/> (Why You Must Act Now) </>} />
       <TextCard7 />
       <TheBlack text="The Offer (Action)" />
       <TextCard8 />
-      <TheBlack text="Risk Reversal (Remove Doubt)" />
+      <TheBlack text={<> Risk Reversal <br className="block sm:hidden"/> (Remove Doubt) </>} />
       <TextCard9 />
-<TheBlack text={"Final Push \n (Commitment + Consistency)"} />
+<TheBlack
+  text={
+    <>
+      Final Push 
+      <br className="block " /> 
+      (Commitment + Consistency)
+    </>
+  }
+/>
       <TextCard10 />
     </div>
   );

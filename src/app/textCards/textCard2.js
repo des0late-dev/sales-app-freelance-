@@ -1,7 +1,7 @@
 export default function TextRest() {
   return (
     <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 py-18">
-      <div className="space-y-[44px] text-lg text-[#1E1E1E]  text-[32px] leading-[38px] max-w-1xl xl:ml-5.5 lg:ml-5.5 p-8 md:p-10 pl-8 md:pl-10">
+      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
         <p >
           See, most punters have it backwards.
         </p>
@@ -45,7 +45,7 @@ export default function TextRest() {
         <img src={"./Stats 1.png"}>
         </img>
 
-       <div className="-mt-18 space-y[44px]">
+       <div className="sm:-mt-18 space-y[44px]">
   <p>
     <u>That&apos;s not luck. That&apos;s not guesswork.</u>
   </p>
