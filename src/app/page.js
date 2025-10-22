@@ -48,9 +48,9 @@ export default function Home() {
 
     </div>
 
-   <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 ">
+   <div className="relative text-center justify-center w-full py-8 pt-4 pb-4 md:pt-30 md:pb-30">
   <p
-    className="text-[28px] mt-8 mb-4 xl:text-7xl  2xl:text-[82px] xl:text-[78px] xl:-mt-8  xl:ml-12 lg:ml-12 font-bold leading-snug text-white drop-shadow-lg text-center "
+    className="w-screen -ml-[calc((100vw-100%)/2)] text-[28px] mt-8 mb-4 xl:text-7xl 2xl:text-[82px] xl:text-[78px] xl:-mt-8 font-bold leading-snug text-white drop-shadow-lg text-center"
     style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
   >
     The Only Horse Racing Edge<br />
@@ -58,6 +58,8 @@ export default function Home() {
     From Just 10.3% Winners
   </p>
 </div>
+
+
 
 <div className="relative z-10 mt-8 xl:-mt-4 mb-6 text-center xl:ml-17 lg:ml-17 ">
   <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
