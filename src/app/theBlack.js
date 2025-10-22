@@ -25,7 +25,7 @@ export default function TheBlack({ text }) {
     fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif",
   }}
 >
-  <p className="whitespace-pre leading-[32px]">{text}</p>
+  <p className="whitespace-pre leading-[32px] sm:leading-tight">{text}</p>
 </div>
 
           </div>

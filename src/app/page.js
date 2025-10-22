@@ -98,7 +98,7 @@ export default function Home() {
   text={
     <>
       Final Push 
-      <br className="block " /> 
+      <br className="block" /> 
       (Commitment + Consistency)
     </>
   }

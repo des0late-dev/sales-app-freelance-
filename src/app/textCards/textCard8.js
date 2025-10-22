@@ -15,7 +15,7 @@ export default function TextCard8() {
 <img src={"./Stats 3 mob.png"} className="sm:hidden block"> 
 </img>
      <p
-  className="sm:text-[48px] text-[25px] leading-[48px] font-bold text-center text-[#D11F25] xl:mt-23.5"
+  className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold  leading-tight text-center text-[#D11F25] xl:mt-23.5 sm:block hidden"
   style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
 >
   All for less than the price of a
@@ -23,6 +23,14 @@ export default function TextCard8() {
   Saturday night takeaway.
 </p>
 
+<p
+  className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-center text-[#D11F25] xl:mt-23.5 sm:hidden block"
+  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
+>
+  All for less than the price of a
+  <br />
+  Saturday night takeaway.
+</p>
         
       </div>
     </div>
