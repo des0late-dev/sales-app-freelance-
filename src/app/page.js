@@ -16,7 +16,7 @@ import TextCard11 from "./textCards/textCard11";
 
 export default function Home() {
   return (
-  <div className="flex justify-center flex-col">
+  <div className="flex justify-center flex-col overflow-x-hidden">
   <div className="relative  sm:min-h-screen">
     
   <div
