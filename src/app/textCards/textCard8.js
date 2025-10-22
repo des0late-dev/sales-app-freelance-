@@ -10,9 +10,10 @@ export default function TextCard8() {
         </p>
 
 
-<img src={"./Stats 3.png"}> 
+<img src={"./Stats 3.png"} className="sm:block hidden"> 
 </img>
-
+<img src={"./Stats 3 mob.png"} className="sm:hidden block"> 
+</img>
      <p
   className="sm:text-[48px] text-[25px] leading-[48px] font-bold text-center text-[#D11F25] xl:mt-23.5"
   style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}

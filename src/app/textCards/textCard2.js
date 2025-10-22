@@ -42,7 +42,9 @@ export default function TextRest() {
 
 
         <p>The result?</p>
-        <img src={"./Stats 1.png"}>
+        <img src={"./Stats 1.png" } className="sm:block hidden">
+        </img>
+         <img src={"./Image stats mob.png" } className="sm:hidden block">
         </img>
 
        <div className="sm:-mt-18 space-y[44px]">

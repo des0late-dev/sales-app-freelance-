@@ -34,7 +34,9 @@ We&apos;ve cursed the TV when our horse clattered the last.
         <p className="text-[#1E1E1E]  ">
 We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it delivers: <strong>consistent, compounding profit from smart each-way betting. </strong>     </p>
       
-      <img src={"./newResult.png"}></img>
+      <img src={"./newResult.png"} className="sm:block hidden"></img>
+            <img src={"./Screenshots mob.png"} className="sm:hidden block"></img>
+
       </div>
     </div>
   );

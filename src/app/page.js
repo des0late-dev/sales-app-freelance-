@@ -32,8 +32,20 @@ export default function Home() {
     
     <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
     
-    <div className="bg-[#D11F25] w-full h-[30px] sm:h-[62px] flex items-center justify-center ">
-      <p className="text-white font-bold text-[36px]" style={{fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif"}}>LOGO</p>
+    <div className="bg-[#D11F25] w-full h-[45px] sm:h-[74px] flex items-center justify-center ">
+      <img
+  src="/Asset 2@2x.png"
+  alt="LOGO"
+  className="w-auto h-[42px] sm:block hidden"
+  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
+/>
+<img
+  src="/Asset 2@2x.png"
+  alt="LOGO"
+  className="w-auto h-[24px] sm:hidden block"
+  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
+/>
+
     </div>
 
    <div className="relative text-center justify-center max-w-7xl mx-auto px-8 py-8 md:px-40 lg:px-24 pt-4 pb-4 md:pt-30 md:pb-30 ">
