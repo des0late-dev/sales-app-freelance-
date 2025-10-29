@@ -66,7 +66,7 @@ export default function Home() {
      
   
       <TextCards />
-      <TheBlack text={<>Think back to your<br className="block sm:hidden " /> last month <br className="sm:block"/> of betting...</>} />
+      <TheBlack text={<>Think back to your<br className="block sm:hidden " /> last month <br className="sm:block hidden"/>  of <br className="block sm:hidden"/> betting...</>} />
  
     
       <TextCard6 /> 
@@ -76,9 +76,9 @@ export default function Home() {
     
       <TheBlack text={<> Reciprocity  (Give <br className="block sm:hidden"/> Before You Ask) </>} />
       <TextCard4 />
-      <TheBlack text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same <br className="sm:hidden block"/> Bets - Odds Crash</>} />
+      <TheBlack text={<>If Too Many People <br className="block sm:hidden"/> Pile  Onto The <br className="sm:block hidden" />Same <br className="sm:hidden block"/> Bets - Odds Crash</>} />
       <TextCard7 />
-<TheBlack text={<> Here&apos;s what you get when you join  <br className="block sm:hidden"/> EachWayGold Today </>} />
+<TheBlack text={<> Here&apos;s what you get<br className="block sm:hidden"/> when you join  <br className="block sm:hidden"/> EachWayGold Today </>} />
     <TextCard8 />
 <TheBlack text={<> You&apos;re covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
     

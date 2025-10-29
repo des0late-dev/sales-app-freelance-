@@ -1,6 +1,6 @@
 export default function TheBlack({ text }) {
   return (
-    <div className="relative w-full overflow-hidden max-h-[200px] sm:min-h-auto min-h-[150px] ">
+    <div className="relative w-full overflow-hidden max-h-[200px] sm:min-h-auto min-h-[150px]  ">
     
       <img
         src="/banner.png"

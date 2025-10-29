@@ -6,7 +6,7 @@ export default function TextCard6() {
 
       
       
-      <div className="sm:space-y-[44px] space-y-[25px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
+      <div className="sm:space-y-[44px] space-y-[25px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]   sm:ml-5.5    md:pl-10">
         
         <p className="text-[#1E1E1E]    ">
 How many <strong>&apos;&apos;sure things&apos;&apos; </strong> bottled it?        

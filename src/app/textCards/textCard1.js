@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TextCards() {
   return (
-    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source -mt-[220px] sm:-mt-[400px]   sm:px-8 py-9 ">
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source -mt-[220px] sm:-mt-[400px]   sm:px-8 py-22 ">
 
       <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-16 px-8 ">
         <div className="text-center font-bold sm:text-[50px] sm:leading-[60px] text-[23px] leading-[23px] space-y-[26px]  sm:space-y-[45px] " style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
