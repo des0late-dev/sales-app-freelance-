@@ -57,7 +57,7 @@ We&apos;ve cursed the TV when our horse clattered the last.
 We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it delivers: <strong>consistent, compounding profit from smart each-way betting. </strong>     </p>
 
 <p className="font-bold sm:text-[50px] sm:leading-[60px] text-[29px] leading-tight  text-[#D11F25] text-center"  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
-  3rd and 4th place runners alone will bring in profit before you've even banked your first <span className="text-black">BIG</span> winner!
+  3rd and 4th place runners alone will bring in profit before you&apos;ve even banked your first <span className="text-black">BIG</span> winner!
 </p>
 
   <img src={"./SS G1.png"} className="block "></img>
