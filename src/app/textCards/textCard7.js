@@ -2,23 +2,9 @@ import React from "react";
 
 export default function TextCard7() {
   return (
-    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 py-18">
-      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
-        <p >
-         Here&apos;s the truth:
-        </p>
-
-        <p className="text-[#D11F25]">
-          <strong>We cap membership numbers.</strong>
-        </p>
-
-        <p className="">
-          Why?
-        </p>
-
-        <p className="">
-          Because if too many people pile onto the same bets, <strong>odds crash.</strong>
-        </p>
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
+      <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10 max-w-1xl ">
+       
 
         <p className="">
           <u>The edge disappears.</u>
@@ -35,7 +21,7 @@ export default function TextCard7() {
     <img
       src="./Underline 3.png"
       alt="underline"
-      className="absolute left-0 bottom--2 w-full"
+      className="absolute left-0 bottom--2 w-[99%] sm:w-full "
     />
   </span>
 </p>

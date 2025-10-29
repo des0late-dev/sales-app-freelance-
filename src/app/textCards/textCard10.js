@@ -2,70 +2,71 @@ import React from "react";
 
 export default function TextCard10() {
   return (
-    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 py-18">
-      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
-       
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
+      <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10  max-w-1xl ">
+       <img src={'./Group 8.png'} className="hidden sm:block"></img>
+              <img src={'./Group 18 mob.png'} className="block sm:hidden"></img>
 
-        <p className="">
-          You&apos;ve read this far, which tells me three things:
-        </p>
-
-      <p className="ml-4">
-        <strong>
-       1. You love winning bets on racing.
-       </strong> 
-      </p>
-      <p className="ml-4">
-        <strong>
-    2. You&apos;re sick of losing to the bookies.
-    </strong>
-      </p>
-      <p className="ml-4">
-        <strong>
-    3.    You want a proven edge.
-    </strong>
-      </p>
-
-      
-       <p className="sm:text-[48px] sm:leading-[48px] text-[29px] font-bold text-center text-[#D11F25]" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+<div className=" text-center leading-loose sm:space-y-[20px] space-y-[15px] ">
+       <p className="sm:text-[48px] sm:leading-[48px] text-[30.9px] font-bold text-center text-[#D11F25]" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
  SO WHY STOP NOW?
 </p>
 
-        <p className="">
-          <strong>Consistency is everything in betting - and in decisions.</strong>
+        <p className="sm:text-[46px] sm:leading-[60px] text-[25px] leading-tight font-bold">
+          <strong>CONSISTENCY IS EVERYTHING IN BETTING AND IN DECISIONS</strong>
         </p>
 
         <p className="">
-          The consistent punters make money.
+          The <strong>consistent punters</strong> make money.
         </p>
 
-        <p className="">
+        <p className="font-bold">
           The ones who hesitate?
         </p>
 
-        <p className="">
-          <strong>They stay stuck.</strong>
-        </p>
-        <p className="sm:text-[48px] sm:leading-[48px] text-[29px] leading-[29px] font-bold text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
-Choose which one you are today.
-</p>
-<div className="justify-center text-center items-center">
-    <button className="mt-2 mb-2 sm:w-[301px] sm:h-[95px] rounded-[100px]  border-[3px]   px-[40px] py-[20px] font-neue sm:text-[44px] sm:leading-[46px] text-[29px] leading-[29px] font-bold  opacity-100 bg-[#D11F25] text-white
-    " style={{fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif"}} >
-    JOIN NOW
-</button>
-</div>
- <p className="sm:text-[48px] sm:leading-[48px] text-[29px] leading-[29px] font-bold text-center mb-12" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
-Click above to join EachWayProfits now.
-</p>
-  <p className=" ">
-          <strong>Spots are open - <span className="text-[#D11F25]">for now.</span> </strong> The bookies aren&apos;t waiting. <strong>Why should you?</strong>
-        </p>
-        <p className="">
-         Make this the weekend where you finally turn  <strong>betting into profit.</strong>
+        <p className="font-bold">
+          <u>THEY STAY STUCK...</u>
         </p>
         </div>
+        <p className="sm:text-[48px] sm:leading-[48px] text-[24px] leading-[29px] font-bold text-center sm:-mb-3 mb-4 -mt-4" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+Choose which one <br/> YOU ARE TODAY...
+</p>
+<div className="flex items-center justify-center gap-4 sm:gap-8 mt-4">
+  <img
+    src={"./left.png"}
+    className="hidden sm:block  h-auto "
+    alt="Left Arrow"
+  />
+  <img
+    src={"./left mob.png"}
+    className="sm:hidden block w-[50px] h-auto -mt-6"
+    alt="Left Arrow Mobile"
+  />
+
+  <button
+    className="text-center justify-center sm:w-[410px] sm:h-[95px] h-[40px] w-[300px]
+    sm:rounded-[100px] rounded-[50px] border-[3px]
+    sm:px-[40px] sm:py-[20px] font-neue sm:text-[44px] sm:leading-[46px] text-[20px] leading-[29px]
+    font-bold text-white bg-gradient-to-r from-[#f76464] to-[#C8102E]"
+    style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
+  >
+    JOIN NOW
+  </button>
+
+  <img
+    src={"./right.png"}
+    className="hidden sm:block   h-auto"
+    alt="Right Arrow"
+  />
+  <img
+    src={"./right mob.png"}
+    className="sm:hidden block w-[50px] h-auto -mt-6"
+    alt="Right Arrow Mobile"
+  />
+</div>
+ 
+        
       </div>
-   
+   </div>
   );
 }

@@ -16,90 +16,75 @@ import TextCard11 from "./textCards/textCard11";
 
 export default function Home() {
   return (
-  <div className="flex justify-center flex-col overflow-x-hidden">
-  <div className="relative  sm:min-h-screen">
-    
-  <div
-  className="absolute inset-0 -z-10 w-full bg-no-repeat bg-cover h-full bg-top"
-  style={{
-    backgroundImage: "url('/background-home.png')",
-    backgroundSize: "100%",
+<div className="flex flex-col justify-center overflow-x-hidden">
+  <div className="relative sm:min-h-screen min-h-[600px]">
+ 
+    <div
+      className="absolute inset-0 -z-10 w-full h-full bg-no-repeat bg-cover bg-top"
+      style={{
+        backgroundImage: "url('/Background home.png')",
+      
+      }}
+    ></div>
 
-    
-  }}
-></div>
-    
-    
-    <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 md:h-40 bg-gradient-to-t from-white via-white/70 to-transparent -z-5"></div>
-    
-    <div className="bg-[#D11F25] w-full h-[45px] sm:h-[74px] flex items-center justify-center ">
+    <div className="bg-[#D11F25] w-full h-[45px] sm:h-[74px] flex items-center justify-center">
       <img
-  src="/Asset 2@2x.png"
-  alt="LOGO"
-  className="w-auto h-[42px] sm:block hidden"
-  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
-/>
-<img
-  src="/Asset 2@2x.png"
-  alt="LOGO"
-  className="w-auto h-[24px] sm:hidden block"
-  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
-/>
-
+        src="/Asset 2@2x.png"
+        alt="LOGO"
+        className="w-auto h-[42px] sm:block hidden"
+      />
+      <img
+        src="/Asset 2@2x.png"
+        alt="LOGO"
+        className="w-auto h-[24px] sm:hidden block"
+      />
     </div>
 
-   <div className="relative text-center justify-center w-full py-8 pt-4 pb-4 md:pt-30 md:pb-30">
-  <p
-    className="w-screen -ml-[calc((100vw-100%)/2)] text-[28px] mt-8 mb-4 xl:text-7xl 2xl:text-[82px] xl:text-[78px] xl:-mt-8 font-bold leading-snug text-white drop-shadow-lg text-center"
-    style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
-  >
-    The Only Horse Racing Edge<br />
-    That Turned £8,201 Profit<br />
-    From Just 10.3% Winners
-  </p>
-</div>
+    
+    <div className="relative text-center justify-center w-full py-8 pt-4 pb-4 md:pt-30 md:pb-15">
+      <p
+    className="w-screen -ml-[calc((100vw-100%)/2)] text-[33px] leading-[40px] mt-8 mb-4 sm:text-[82px]  xl:-mt-12   font-bold sm:leading-[85px]  text-white drop-shadow-lg text-center"
+        style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
 
-
-
-<div className="relative z-10 mt-8 xl:-mt-4 mb-6 text-center xl:ml-17 lg:ml-17 ">
-  <img src={"./Placeholder 1.png"} className="mx-auto" alt="Racing Horse" />
-</div>
-
-
-  
-    <div className="relative z-20 sm:-mb-4  md:-mb-2 lg:-mb-2 xl:-mb-4 text-center xl:ml-17 lg:ml-17">
-      <img src={"./Placeholder 2.png"} className="mx-auto" alt="Betting Screen" />
+      >
+        17/1 Winners.<br className="sm:block block" />
+        Place Money Rolling <br className="sm:hidden block"></br> In. <br className="sm:block hidden" />
+        £8,201 Profit. <br />
+        And It Works Even <br className="block sm:hidden"/> When Your <br className="hidden sm:block" />
+        Horses <br className="block sm:hidden"></br> Come Fourth!
+      </p>
     </div>
-  </div>
   
+
   
+  <div className=" sm:block hidden w-full h-110 bg-gradient-to-t from-[#d9d9d9] via-[#d9d9d9]/0 to-transparent "></div>
+</div>
+
   
-  <HorseBanner />
+     
+  
       <TextCards />
-      <TheBlack text="Interest (Story + Problem)" />
-      <TextRest />
-      <TheBlack text="Agitate (Twisting the Knife)" />
+      <TheBlack text={<>Think back to your<br className="block sm:hidden " /> last month <br className="sm:block"/> of betting...</>} />
+ 
+    
       <TextCard6 /> 
-      <TheBlack text="Desire (Solution + Benefits)"></TheBlack>   
+        <TheBlack text={<>You don't need to win often. <br className="sm:block hidden" /> At 17/1 You Just need to win start</>} />
+     
       <TextCard11></TextCard11>
-      <TheBlack text={<> Proof <br className="block sm:hidden"/> (Authority + Social Proof) </>} />
-      <TextCard3 />
-      <TheBlack text={<> Reciprocity <br className="block sm:hidden"/> (Give Before You Ask) </>} />
+    
+      <TheBlack text={<> Reciprocity  (Give <br className="block sm:hidden"/> Before You Ask) </>} />
       <TextCard4 />
-      <TheBlack text="Unity (We&apos;re One of You)" />
-      <TextCard5 />
-      <TheBlack text={<> Scarcity <br className="block sm:hidden"/> (Why You Must Act Now) </>} />
+      <TheBlack text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same <br className="sm:hidden block"/> Bets - Odds Crash</>} />
       <TextCard7 />
-      <TheBlack text="The Offer (Action)" />
-      <TextCard8 />
-      <TheBlack text={<> Risk Reversal <br className="block sm:hidden"/> (Remove Doubt) </>} />
+      <TheBlack text={<> Here&apos;s what you get when you join  <br className="block sm:hidden"/> EachWayGold Today </>} />
+    <TextCard8 />
+      <TheBlack text={<> You're covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
+    
       <TextCard9 />
 <TheBlack
   text={
     <>
-      Final Push 
-      <br className="block" /> 
-      (Commitment + Consistency)
+      You've read this far, which tells <br/>me three things:
     </>
   }
 />

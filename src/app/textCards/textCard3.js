@@ -1,7 +1,7 @@
 export default function TextCard3(){
    return (
-    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 sm:py-18 py-12">
-      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
+    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 sm:py-9 py-12">
+      <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10 max-w-1xl ">
     <p><strong>Numbers don&apos;t lie:</strong></p>
 
     <div className="relative sm:block hidden">

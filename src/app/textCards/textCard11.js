@@ -1,35 +1,34 @@
 export default function TextCard11() {
   return (
-    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source px-6 sm:px-8 py-20">
-      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
+      <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10 max-w-1xl ">
         <p>
-          <strong><i>Here&apos;s <span className="ml-1"></span>the secret:</i></strong> You don&apos;t need to <strong>win often</strong> to win big.
+We don&apos;t chase <u>short-priced</u> favorites.
         </p>
-        <p>
-          Our service proves it:
+
+ <p>
+  <strong>
+We target high-value each-way bets the market underprices.</strong>
         </p>
+
+         <p>
+  
+And when they land, <strong>they explode.</strong>
+        </p>
+
+           <p>
+  
+Here&apos;s how we&apos;ve banked <span className="text-[#D11F25] font-bold" >£18,201 profit</span> across <strong>2,074 tips:</strong>
+        </p>
+
+        
       <ul className="list-disc pl-12 space-y-[26px] sm:text-[32px] sm:leading-[38px] text-[20px] text-black " >
-  <li><strong>Only 7% of tips land</strong> - and that&apos;s enough to bank £8,201 profit.</li>
-  <li>Why? Because when we hit, <strong>we hit big.</strong> 10/1, 12/1, 16/1, sometimes more.</li>
-  <li>Every winner wipes out weeks of small losses and pushes the bankroll higher.</li>
+  <li><strong>Big odds.</strong> 17/1 - 20/1 - Sometimes even bigger.</li>
+  <li><strong>Each-way edge.</strong> We profit even if the horse doesn&apos;t win. You&apos;ll see horses finish 4th and double your stake.</li>
+  <li><strong>Compound effect.</strong> One landed tip can wipe out weeks of losses and push the bankroll sky-high.</li>
 </ul>
 
-        <p className="py-1">
-          It&apos;s like fishing. Most punters are scooping minnows out of a pond.
-        </p>
-        <p>
-          <strong>We&apos;re out in deep waters, netting the monsters.</strong>
-        </p>
-        <p>Imagine this:</p>
-        <p>It&apos;s Saturday.</p>
-        <p>The favorite&apos;s odds-on.</p>
-        <p>You&apos;ve got the outsider at 11/1.</p>
-        <p><strong><i>It storms home.</i></strong></p>
-        <p>Suddenly, you&apos;re the one laughing, pint in hand, mates staring like:</p>
-   <p><strong>{'“'}How the hell did you pick that?{'”'}</strong></p>
         
-
-        <p><u>That&apos;s the power of this system.</u></p>
       </div>
     </div>
   );

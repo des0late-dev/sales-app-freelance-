@@ -2,11 +2,11 @@ import React from "react";
 
 export default function TextCard4() {
   return (
-    <div className="relative w-full max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden  font-source  px-6 sm:px-8 py-18">
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
 
       
       
-      <div className="space-y-[44px] text-[20px] leading-[28px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:p-8 max-w-1xl xl:ml-5.5 lg:ml-5.5  md:p-10  md:pl-10">
+      <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10 max-w-1xl ">
         <p className="text-[#1E1E1E]    ">
           <i>Before I even ask you to join,</i> here&apos;s a <strong>free angle</strong> you can use this weekend:
         </p>
@@ -31,6 +31,42 @@ approach.
        <p className="text-[#1E1E1E]  ">
        <strong> Fair enough?</strong>
        </p>
+       
+        <p className="text-[#1E1E1E]    ">
+         We&apos;re punters. <strong>Like you.</strong>
+        </p>
+        <p className="text-[#1E1E1E]  ">
+    
+    Working men who love the sport, hate the bookies, and want to make this game <strong>pay for once.</strong>
+        </p>
+        <p className="text-[#1E1E1E]  ">
+We&apos;ve been skint on Mondays.</p>
+      
+         <p className="text-[#1E1E1E]  ">
+We&apos;ve chased bad bets. 
+        </p>
+        
+         <p className="text-[#1E1E1E]   ">
+We&apos;ve cursed the TV when our horse clattered the last.       
+</p>
+       
+       <p className="text-[#1E1E1E]  ">
+       That&apos;s why this service exists - not to make you dream, but to finally give punters like us a <strong> real edge.</strong>
+       </p>
+        <p className="text-[#1E1E1E]  ">
+We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it delivers: <strong>consistent, compounding profit from smart each-way betting. </strong>     </p>
+
+<p className="font-bold sm:text-[50px] sm:leading-[60px] text-[29px] leading-tight  text-[#D11F25] text-center"  style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+  3rd and 4th place runners alone will bring in profit before you've even banked your first <span className="text-black">BIG</span> winner!
+</p>
+
+  <img src={"./SS G1.png"} className="block "></img>
+
+
+<p className="font-bold sm:text-[50px] sm:leading-[60px] text-[29px] leading-tight  text-[#D11F25] text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+  WE HIT A TON OF <span className="text-black">HIGH VALUE WINNERS</span> IN JUST 1 WEEK IN SEPTEMBER
+</p>
+<img src={"./SS G2.png"} className="block "></img>
       </div>
     </div>
   );
