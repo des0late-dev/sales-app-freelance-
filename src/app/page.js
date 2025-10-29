@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Image from "next/image";
 
 import TheBlack from "./theBlack";
@@ -68,7 +70,7 @@ export default function Home() {
  
     
       <TextCard6 /> 
-        <TheBlack text={<>You don't need to win often. <br className="sm:block hidden" /> At 17/1 You Just need to win start</>} />
+<TheBlack text={<>You don&apos;t need to win often. <br className="sm:block hidden" /> At 17/1 You Just need to win start</>} />
      
       <TextCard11></TextCard11>
     
@@ -76,15 +78,15 @@ export default function Home() {
       <TextCard4 />
       <TheBlack text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same <br className="sm:hidden block"/> Bets - Odds Crash</>} />
       <TextCard7 />
-      <TheBlack text={<> Here&apos;s what you get when you join  <br className="block sm:hidden"/> EachWayGold Today </>} />
+<TheBlack text={<> Here&apos;s what you get when you join  <br className="block sm:hidden"/> EachWayGold Today </>} />
     <TextCard8 />
-      <TheBlack text={<> You're covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
+<TheBlack text={<> You&apos;re covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
     
       <TextCard9 />
 <TheBlack
   text={
     <>
-      You've read this far, which tells <br/>me three things:
+      You&apos;ve read this far, which tells <br/>me three things:
     </>
   }
 />
