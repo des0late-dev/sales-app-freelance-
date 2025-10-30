@@ -60,14 +60,14 @@ We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it d
   3rd and 4th place runners alone will bring in profit before you&apos;ve even banked your first <span className="text-black">BIG</span> winner!
 </p>
 
-  <img src={"./SS G1.png"} className="sm:block hidden "></img>
+  <img src={"./Group 22 clear desktop.png"} className="sm:block hidden "></img>
   <img src={"./Group 19 mob.png"} className="sm:hidden block  "></img>
 
 
 <p className="font-bold sm:text-[50px] sm:leading-[60px] text-[29px] leading-tight  text-[#D11F25] text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
   WE HIT A TON OF <span className="text-black">HIGH VALUE WINNERS</span> IN JUST 1 WEEK IN SEPTEMBER
 </p>
-<img src={"./SS G2 desktop.png"} className="sm:block hidden sm:mb-1 "></img>
+<img src={"./Group 23 clear desktop.png"} className="sm:block hidden sm:mb-1 "></img>
   <img src={"./Group 20 mob.png"} className="sm:hidden block "></img>
 
       </div>

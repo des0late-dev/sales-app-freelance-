@@ -91,7 +91,7 @@ export default function TextRest() {
 
  <img src={"./Stats 1.png" } className="sm:block hidden">
         </img>
-         <img src={"./Image stats mob.png" } className="sm:hidden block">
+         <img src={"./Image stats mob clear.png" } className="sm:hidden block">
         </img>
 
        <div className="sm:-mt-18 space-y[44px]">
