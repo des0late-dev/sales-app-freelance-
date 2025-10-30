@@ -36,7 +36,7 @@ export default function Home() {
         className="w-auto h-[42px] sm:block hidden"
       />
       <img
-        src="/Asset 2@2x.png"
+        src="/Asset 1@2x 1 mobile.png"
         alt="LOGO"
         className="w-auto h-[24px] sm:hidden block"
       />
