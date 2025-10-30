@@ -2,21 +2,21 @@ import React from "react";
 
 export default function TextCard10() {
   return (
-    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-b-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
       <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10  max-w-1xl ">
        <img src={'./Group 8.png'} className="hidden sm:block"></img>
               <img src={'./Group 18 mob.png'} className="block sm:hidden"></img>
 
 <div className=" text-center leading-loose sm:space-y-[20px] space-y-[15px] ">
-       <p className="sm:text-[48px] sm:leading-[48px] text-[30.9px] font-bold text-center text-[#D11F25]" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
+       <p className="sm:text-[48px] sm:leading-[48px] text-[30.9px] sm:mb-10 font-bold text-center text-[#D11F25]" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
  SO WHY STOP NOW?
 </p>
 
-        <p className="sm:text-[46px] sm:leading-[60px] text-[25px] leading-tight font-bold">
+        <p className="sm:text-[46px] sm:leading-[45px] text-[25px]  leading-tight font-bold">
           <strong>CONSISTENCY IS EVERYTHING IN BETTING AND IN DECISIONS</strong>
         </p>
 
-        <p className="">
+        <p className=" ">
           The <strong>consistent punters</strong> make money.
         </p>
 
@@ -27,6 +27,7 @@ export default function TextCard10() {
         <p className="font-bold">
           <u>THEY STAY STUCK...</u>
         </p>
+
         </div>
         <p className="sm:text-[48px] sm:leading-[48px] text-[24px] leading-[29px] font-bold text-center sm:-mb-3 mb-4 -mt-4" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
 Choose which one <br/> YOU ARE TODAY...

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TextCard6() {
   return (
-    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black  shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
 
       
       

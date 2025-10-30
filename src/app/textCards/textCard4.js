@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TextCard4() {
   return (
-    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
+    <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black  shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
 
       
       
@@ -66,7 +66,7 @@ We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it d
 <p className="font-bold sm:text-[50px] sm:leading-[60px] text-[29px] leading-tight  text-[#D11F25] text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
   WE HIT A TON OF <span className="text-black">HIGH VALUE WINNERS</span> IN JUST 1 WEEK IN SEPTEMBER
 </p>
-<img src={"./SS G2.png"} className="block "></img>
+<img src={"./SS G2.png"} className="block sm:mb-1 "></img>
       </div>
     </div>
   );

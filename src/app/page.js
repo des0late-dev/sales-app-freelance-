@@ -45,7 +45,7 @@ export default function Home() {
     
     <div className="relative text-center justify-center w-full py-8 pt-4 pb-4 md:pt-30 md:pb-15">
       <p
-    className="w-screen -ml-[calc((100vw-100%)/2)] text-[33px] leading-[40px] mt-8 mb-4 sm:text-[82px]  xl:-mt-12   font-bold sm:leading-[85px]  text-white drop-shadow-lg text-center"
+    className="w-screen -ml-[calc((100vw-100%)/2)] text-[33px] leading-[40px] mt-8 mb-4 sm:text-[82px]      font-bold sm:leading-[85px]  text-white drop-shadow-lg text-center"
         style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}
 
       >
@@ -66,19 +66,19 @@ export default function Home() {
      
   
       <TextCards />
-      <TheBlack text={<>Think back to your<br className="block sm:hidden " /> last month <br className="sm:block hidden"/>  of <br className="block sm:hidden"/> betting...</>} />
+      <TheBlack text={<>Think back to your last month <br className="sm:block hidden"/>  of  betting...</>} />
  
     
       <TextCard6 /> 
-<TheBlack text={<>You don&apos;t need to win often. <br className="sm:block hidden" /> At 17/1 You Just need to win start</>} />
+<TheBlack text={<>You don&apos;t need to win often.  At 17/1 You Just need to win start</>} />
      
       <TextCard11></TextCard11>
     
-      <TheBlack text={<> Reciprocity  (Give <br className="block sm:hidden"/> Before You Ask) </>} />
+      <TheBlack text={<> Reciprocity  (Give  Before You Ask) </>} />
       <TextCard4 />
-      <TheBlack text={<>If Too Many People <br className="block sm:hidden"/> Pile  Onto The <br className="sm:block hidden" />Same <br className="sm:hidden block"/> Bets - Odds Crash</>} />
+      <TheBlack text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same Bets - Odds Crash</>} />
       <TextCard7 />
-<TheBlack text={<> Here&apos;s what you get<br className="block sm:hidden"/> when you join  <br className="block sm:hidden"/> EachWayGold Today </>} />
+<TheBlack text={<> Here&apos;s what you get when you  join   EachWayGold Today </>} />
     <TextCard8 />
 <TheBlack text={<> You&apos;re covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
     
@@ -86,7 +86,7 @@ export default function Home() {
 <TheBlack
   text={
     <>
-      You&apos;ve read this far, which tells <br/>me three things:
+      You&apos;ve read this far, which tells me three things:
     </>
   }
 />
