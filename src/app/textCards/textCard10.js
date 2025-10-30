@@ -4,7 +4,7 @@ export default function TextCard10() {
   return (
     <div className="relative sm:w-full w-[365px] max-w-[1152px] mx-auto bg-white text-black rounded-b-lg shadow-lg overflow-hidden font-source    px-8 sm:px-8 py-9">
       <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10  max-w-1xl ">
-       <img src={'./Group 8.png'} className="hidden sm:block"></img>
+       <img src={'./Group 8 desktop.png'} className="hidden sm:block"></img>
               <img src={'./Group 18 mob.png'} className="block sm:hidden"></img>
 
 <div className=" text-center leading-loose sm:space-y-[20px] space-y-[15px] ">
@@ -12,7 +12,7 @@ export default function TextCard10() {
  SO WHY STOP NOW?
 </p>
 
-        <p className="sm:text-[46px] sm:leading-[45px] text-[25px]  leading-tight font-bold">
+        <p className="sm:text-[46px] sm:leading-[45px] text-[25px] -mt-2 sm:-mt-0 leading-tight font-bold">
           <strong>CONSISTENCY IS EVERYTHING IN BETTING AND IN DECISIONS</strong>
         </p>
 

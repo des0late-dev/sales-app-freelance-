@@ -6,9 +6,9 @@ export default function TextCard8() {
       <div className="sm:space-y-[44px] space-y-[25px] text-[18px] leading-[20px] text-[#1E1E1E]  sm:text-[32px] sm:leading-[38px]  sm:px-10 sm:-mt-5 ">
         
 
-<img src={"./Stats 3.png"} className="sm:block hidden mt-10"> 
+<img src={"./Group 21 desktop.png"} className="sm:block hidden mt-10"> 
 </img>
-<img src={"./Stats 3 mop.png"} className="sm:hidden block"> 
+<img src={"./Stats 3 mob.png"} className="sm:hidden block"> 
 </img>
 <div className="">
    

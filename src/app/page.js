@@ -24,14 +24,14 @@ export default function Home() {
     <div
       className="absolute inset-0 -z-10 w-full h-full bg-no-repeat bg-cover bg-top"
       style={{
-        backgroundImage: "url('/Background home.png')",
+        backgroundImage: "url('/Background-home.png')",
       
       }}
     ></div>
 
-    <div className="bg-[#D11F25] w-full h-[45px] sm:h-[74px] flex items-center justify-center">
+    <div className="bg-[#1E2050] w-full h-[45px] sm:h-[74px] flex items-center justify-center">
       <img
-        src="/Asset 2@2x.png"
+        src="/logo desktop.png"
         alt="LOGO"
         className="w-auto h-[42px] sm:block hidden"
       />
@@ -66,24 +66,26 @@ export default function Home() {
      
   
       <TextCards />
-      <TheBlack text={<>Think back to your last month <br className="sm:block hidden"/>  of  betting...</>} />
+      <TheBlack className="sm:min-h-[150px] min-h-[180px]" text={<span  className="text-center block sm:text-left ">You Don't Need Winners To WIN BIG <span className="mt-2 block"/> You  just need the right kind of LOSERS</span>}></TheBlack>
+      <TextRest/>
+      <TheBlack className="min-h-[150px]" text={<>Think back to your last month <br className="sm:block hidden"/>  of  betting...</>} />
  
     
       <TextCard6 /> 
-<TheBlack text={<>You don&apos;t need to win often.  At 17/1 You Just need to win start</>} />
+<TheBlack className="min-h-[150px]" text={<>You don&apos;t need to win often.  At 17/1 You Just need to win start</>} />
      
       <TextCard11></TextCard11>
     
-      <TheBlack text={<> Reciprocity  (Give  Before You Ask) </>} />
+      <TheBlack className="min-h-[150px]" text={<> Reciprocity  (Give  Before You Ask) </>} />
       <TextCard4 />
-      <TheBlack text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same Bets - Odds Crash</>} />
+      <TheBlack className="min-h-[150px]" text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same Bets - Odds Crash</>} />
       <TextCard7 />
-<TheBlack text={<> Here&apos;s what you get when you  join   EachWayGold Today </>} />
+<TheBlack className="min-h-[150px]" text={<> Here&apos;s what you get when you  join   EachWayGold Today </>} />
     <TextCard8 />
-<TheBlack text={<> You&apos;re covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
+<TheBlack className="min-h-[150px]" text={<> You&apos;re covered by our CANCEL <br className="sm:block hidden "/>ANYTIME GUARANTEE. </>} />
     
       <TextCard9 />
-<TheBlack
+<TheBlack className="min-h-[150px]"
   text={
     <>
       You&apos;ve read this far, which tells me three things:
