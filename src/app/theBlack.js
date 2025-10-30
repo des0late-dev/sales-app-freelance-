@@ -5,7 +5,7 @@ export default function TheBlack({ text, className="" }) {
       <img
         src="/banner.png"
         alt="Horse Racing Banner"
-        className="w-full h-[64px] sm:h-auto object-cover sm:block hidden"
+        className="w-full h-[64px] sm:h-65 object-cover sm:block hidden"
       />
       <img
         src="/Banner 8.png"

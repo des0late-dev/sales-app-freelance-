@@ -76,7 +76,7 @@ export default function Home() {
      
       <TextCard11></TextCard11>
     
-      <TheBlack className="min-h-[150px]" text={<> Reciprocity  (Give  Before You Ask) </>} />
+      <TheBlack className="min-h-[110px]" text={<> Reciprocity  (Give  Before You Ask) </>} />
       <TextCard4 />
       <TheBlack className="min-h-[150px]" text={<>If Too Many People Pile Onto The <br className="sm:block hidden" />Same Bets - Odds Crash</>} />
       <TextCard7 />

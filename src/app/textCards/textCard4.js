@@ -61,7 +61,7 @@ We call it <strong>EachWayProfits</strong> because That&apos;s exactly what it d
 </p>
 
   <img src={"./SS G1.png"} className="sm:block hidden "></img>
-  <img src={"./Group 19 mob.png"} className="sm:hidden block "></img>
+  <img src={"./Group 19 mob.png"} className="sm:hidden block  "></img>
 
 
 <p className="font-bold sm:text-[50px] sm:leading-[60px] text-[29px] leading-tight  text-[#D11F25] text-center" style={{ fontFamily: "'Neue Haas Grotesk Display Pro', sans-serif" }}>
